@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+
+   <title></title>
+
+</head>
+
+<body>
+
+   <h1>Load external JSON file</h1>
+
+   <script type="text/javascript" src="data.json"></script>
+
+   <script>
+   //printing the "jobTitleName" from the array from the json.data file into the brower
+   for (var i = 0; i < json.length; i++) {
+
+       var obj = json[i];
+
+       document.write(obj.jobTitleName + "<br>");
+
+   }
+
+   </script>
+
+ 
+
+</body>
+
+</html>

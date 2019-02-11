@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style>
+		.hot {
+			color: red;
+		}
+
+		.nature {
+			color: green;
+		}
+	</style>
+</head>
+<body>
+	<p id="demo"></p>
+	<ul>
+		<li class="nature">Item 1</li>
+		<li class="hot">Item 2</li>
+		<li class="hot">Item 3</li>
+		<li id="one">Item 4</li>
+	</ul>
+	<script>
+		document.getElementById("demo").innerHTML="Hello World!"; //inserting Hello world into the paragraph with the ID demo
+		document.querySelector("li.hot").innerHTML="affected item"; //selectiong the first list element with the class hot
+		document.getElementsByClassName("nature")[0].innerHTML="Selection by tag name"; // selecting the first object of the list with the class nature
+		document.getElementsByTagName("li")[2].innerHTML="Selection by tag name"; //selecting an object by its tag name in this case the third list item
+		document.getElementsByTagName("li")[3].setAttribute("class","nature"); //giving an element with no class a class
+		document.getElementsByTagName("li")[2].className="nature"; //changing the class of an element
+		var item = getElementById("one");
+
+		var array=["apple", "banana", "berry", "cherry", "grape", "orange"]
+		
+		var output = "";
+		for (i=0; i< array.length; i++) {
+			document.write(array);
+		};
+
+
+	
+	</script>
+</body>
+</html>

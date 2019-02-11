@@ -1,0 +1,23 @@
+download nodejs
+
+run cmd:
+
+node -v (checks nodejs version)
+
+npm install npm -g (installs npm globally)
+
+npm install typescript -g (installs typescript globally)
+
+tsc -v (checks typescript version)
+
+install packages in sublime:
+
+typescript
+
+typescript syntax 
+
+terminal 
+
+ctrl+shift+t to run powershell(terminal) in sulbime
+
+tsc myscript.ts -w ==> convert to js
