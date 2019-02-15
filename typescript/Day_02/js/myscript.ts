@@ -61,6 +61,10 @@
 //Similar to maps sets also record the order in wich elements are inserted.
 //We use set if wen want to save just keys not key-value pairs
 
+//Class is a Object with specific functions and properties attached to it
+
+
+
 
 
 // Questions:
