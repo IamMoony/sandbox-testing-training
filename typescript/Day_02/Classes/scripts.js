@@ -12,16 +12,11 @@ var __extends = (this && this.__extends) || (function () {
     };
 })();
 var Person = /** @class */ (function () {
-    function Person() {
-        //properties
-        this.firstName = "";
-        this.lastName = "";
-    }
     //function
-    Person.prototype.contructor = function (firstName, lastName) {
+    function Person(firstName, lastName) {
         this.firstName = firstName;
-        this.firstName = lastName;
-    };
+        this.lastName = lastName;
+    }
     //function
     Person.prototype.name = function () {
         return "My name is " + this.firstName + " " + this.lastName;
@@ -32,32 +27,29 @@ var Person = /** @class */ (function () {
     };
     return Person;
 }());
+var testperson = new Person("Simon", "Doe");
+console.log(testperson.name());
+console.log(testperson.whoAreYou());
 //propertie put function variable
-var fullName = new Person("Mario", "Nelson");
-console.log(fullName.name());
-console.log(fullName.whoAreYou());
 //Extending the students class to the person class
-var student = /** @class */ (function (_super) {
-    __extends(student, _super);
-    function student() {
-        return _super !== null && _super.apply(this, arguments) || this;
+var Student = /** @class */ (function (_super) {
+    __extends(Student, _super);
+    function Student(firstName, lastName, course) {
+        var _this = _super.call(this, firstName, lastName) || this;
+        _this.course = course;
+        return _this;
     }
-    //Take first and last name from the parent class (person)
-    //Create new contructor with the same parameters and add course parameter 
-    // (parameters are mostly the properties we created first)
-    student.prototype.contructor = function (firstName, lastName, course) {
-        //Refer to the parent class
-        //We use the super function to call the constructor of the parent class
-        _this = _super.call(this, firstName, lastName) || this;
-        //sets the value of course to course
-        this.course = course;
+    Student.prototype.whoAreYou = function () {
+        return _super.prototype.whoAreYou.call(this) + " and I am studying " + this.course;
     };
-    return student;
-}(person));
-return _super.whoAreYou.call(this) + " and I am studying " + this.course;
+    return Student;
+}(Person));
+// var fullName = new Person("Mario", "Nelson");
+// console.log(fullName.name());
+// console.log(fullName.whoAreYou());
 //create a new variable wich create a new student with the following values
 //the keyword new refers to the constructor!!
 //Also called an instance of an class!!
-var student1 = new student("John", "Due", "Angular6");
+var student1 = new Student("John", "Due", "Angular6");
 document.write(student1.whoAreYou());
 //Three different Access Modifiers --> public, private, protected
