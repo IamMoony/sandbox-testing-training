@@ -13,6 +13,11 @@ h1 {
 	border: 2px solid;
 }
 
+#score p {
+	font-size: 2em;
+	background-color: lightgrey;
+}
+
 #footer {
 width: 100%;
 display: flex;
