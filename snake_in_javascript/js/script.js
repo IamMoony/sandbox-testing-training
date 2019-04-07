@@ -26,6 +26,14 @@ let snake = [
 ];
 // Score
 let score = 0;
+
+let changingDirection = false;
+
+// Food X Position
+let foodX;
+// Food Y Position
+let foodY;
+
 // Horizontal Velocity
 let dx = 10;
 // Vertical Velocity
@@ -42,6 +50,12 @@ var gameCanv = document.getElementById("canvas");
 
 var ctx = gameCanv.getContext("2d");
 
+// Start Game
+main();
+
+//Create Food
+createFood();
+
 // Color For Background
 ctx.fillStyle = CANVAS_BACKGROUND_COLOR;
 // Color For Border
@@ -52,35 +66,60 @@ ctx.fillRect(0, 0, gameCanv.width, gameCanv.height);
 
 ctx.strokeRect(0, 0, gameCanv.width, gameCanv.height);
 
-// Start Game
-main();
-// Create Food
-createFood();
+
 
 
 // Call Event Listener When Key Is Pressed
 document.addEventListener("keydown", changeDirection);
 
-advanceSnake();
+function main() {
 
-dx = 0;
+	if(didGameEnd()) return;
 
-dy = -10;
+    setTimeout(function onTick() {
+    	changingDirection = false;
+        clearCanvas();
+        drawFood();
+        advanceSnake();
+        drawSnake();
 
-advanceSnake();
+        //Call main again
+        main();
 
-// Call The drawSnake Function 
-drawSnake();
+    }, 100)
+}
 
 
+function clearCanvas() {
+    ctx.fillStyle = CANVAS_BACKGROUND_COLOR;
+    ctx.strokeStyle = CANVAS_BORDER_COLOR;
 
-/*let nextSnake [
-{x: 160, y: 150;},
-{x: 150, y: 150;},
-{x: 140, y: 150;},
-{x: 130, y: 150;},
-{x: 120, y: 150;}
-];*/
+    ctx.fillRect(0, 0, gameCanv.width, gameCanv.height);
+    ctx.strokeRect(0, 0, gameCanv.width, gameCanv.height);
+}
+
+function didGameEnd() {
+	for (let i = 4; i < snake.length; i++) {
+		const didCollide = snake[i].x  === snake[0].x && snake[i].y === snake[0].y 
+		if (didCollide) return true
+	}
+
+const hitLeftWall = snake[0].x < 0;
+const hitRightWall = snake[0].x > gameCanv.width - 10;
+const hitTopWall = snake[0].y < 0;
+const hitBottomWall = snake[0].y > gameCanv.height - 10;
+
+return hitLeftWall || hitRightWall || hitTopWall || hitBottomWall
+}
+
+function drawFood() {
+    ctx.fillStyle = "red";
+    ctx.strokeStyle = "black";
+
+    ctx.fillRect(foodX, foodY, 10, 10);
+    ctx.strokeRect(foodX, foodY, 10, 10);
+}
+
 
 //Function To Move The Snake
 /**
@@ -88,6 +127,7 @@ drawSnake();
  * according to the horizontal velocity and the y-coordinates of its parts
  * according to the vertical veolocity
  */
+
 function advanceSnake() {
     const head = { x: snake[0].x + dx, y: snake[0].y + dy };
     snake.unshift(head);
@@ -101,6 +141,20 @@ function advanceSnake() {
         snake.pop();
     }
 
+}
+
+
+function randomTen(min, max) {
+    return Math.round(Math.random() * (max - min) + min / 10) * 10;
+}
+
+function createFood() {
+    foodX = randomTen(0, gameCanv.width - 10);
+    foodY = randomTen(0, gameCanv.height - 10);
+
+    snake.forEach(function isOnSnake(part) {
+       if (part.x  === foodX && part.y === foodY) createFood();
+    });
 }
 
 //Loops Through Every Part Of The Snake And Prints It On The Canvas
@@ -119,55 +173,17 @@ function drawSnakePart(snakepart) {
     ctx.strokeRect(snakepart.x, snakepart.y, 10, 10);
 }
 
-function clearCanvas() {
-    ctx.fillStyle = 'white';
-    ctx.strokeStyle = 'black';
 
-    ctx.fillRect(0, 0, gameCanv.width, gameCanv.height);
-    ctx.strokeRect(0, 0, gameCanv.width, gameCanv.height);
-}
-
-function main() {
-    setTimeout(function onTick() {
-        clearCanvas();
-        drawFood();
-        advanceSnake();
-        drawSnake();
-
-        //Call main again
-        main();
-
-    }, 100)
-}
-
-function randomTen(min, max) {
-    return Math.round(Math.random() * (max - min) + min / 10) * 10;
-}
-
-function createFood() {
-    foodX = randomTen(0, gameCanv.width - 10);
-    foodY = randomTen(0, gameCanv.height - 10);
-
-    snake.forEach(function isFoodOnSnake(part) {
-        const foodIsOnSnake = part.x == foodX && part.y == foodY
-        if (foodIsOnSnake)
-            createFood();
-    });
-}
-
-function drawFood() {
-    ctx.fillStyle = "red";
-    ctx.strokeStyle = "black";
-
-    ctx.fillRect(foodX, foodY, 10, 10);
-    ctx.strokeRect(foodX, foodY, 10, 10);
-}
 
 function changeDirection(event) {
     const LEFT_KEY = 37;
     const RIGHT_KEY = 39;
     const UP_KEY = 38;
     const DOWN_KEY = 40;
+
+    if (changingDirection) return;
+
+    changingDirection = true;
 
     const keyPressed = event.keyCode;
     const goingUp = dy === -10;
@@ -196,20 +212,5 @@ function changeDirection(event) {
     }
 }
 
-function didGameEnd() {
-	for (let i = 4; i < snake.length; i++) {
-		const didCollide = snake[i].x  === snake[0].x && snake[i].y === snake[0].y 
-		if (didCollide) return true
-	}
 
-const hitLeftWall = snake[0].x < 0;
-const hitRightWall = snake[0].x > gameCanv.width - 10;
-const hitTopWall = snake[0].y < 0;
-const hitBottomWall = snake[0].y > gameCanv.height - 10;
-
-return hitLeftWall ||
-		hitRightWall ||
-		hitTopWall ||
-		hitBottomWallt
-}
 
