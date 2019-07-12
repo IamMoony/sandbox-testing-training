@@ -7,5 +7,10 @@ public class Main {
         Factorial factorial = new Factorial();
         System.out.println(factorial.calculateFactorial(5));
 
+        FizzBuzz fizzBuzz = new FizzBuzz();
+        fizzBuzz.fizzBuzzGenerator(15);
+
+
+
     }
 }
