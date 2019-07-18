@@ -5,8 +5,6 @@ public class FizzBuzz {
         String fizz = "Fizz";
         String buzz = "Buzz";
         String fizzBuzz ="FizzBuzz";
-        String hello = "hello";
-        // int numberToBeMultiplied = i;
 
         // I wanna check this first
         if(i % 3 == 0 && i  % 5 == 0) {
