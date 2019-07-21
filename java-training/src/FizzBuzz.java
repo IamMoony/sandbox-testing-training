@@ -1,21 +1,21 @@
 public class FizzBuzz {
 
-    public void fizzBuzzGenerator(int i) {
+    public void fizzBuzzGenerator(int number) {
 
         String fizz = "Fizz";
         String buzz = "Buzz";
         String fizzBuzz ="FizzBuzz";
 
         // I wanna check this first
-        if(i % 3 == 0 && i  % 5 == 0) {
+        if(number % 3 == 0 && number  % 5 == 0) {
             System.out.println(fizzBuzz);
         }
-        else if(i % 5 == 0) {
+        else if(number  % 5 == 0) {
             System.out.println(buzz);
-        } else if(i % 3 == 0)  {
+        } else if(number  % 3 == 0)  {
             System.out.println(fizz);
         } else {
-            System.out.println(i);
+            System.out.println(number );
         }
 
     }
