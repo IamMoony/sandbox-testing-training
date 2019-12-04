@@ -1,31 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java" line="46" />
+    <bookmark url="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java" line="53" />
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ce3f2d82-b813-47f2-bdb3-4ebefb4dc82c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../TestJava/src/package1/B.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../TestJava/src/package2/C.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ForLoopTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Exercises/W4D2/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Exercises/W4D2/LibraryUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java_Exercises/W4D2/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/LocalDate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/PalindromeForLoop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Super.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestLong.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/W1D3_A4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/junit/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/project_euler/Problem1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sorting_algorythms/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java_Exercises/W4D2/NoBookException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/java-training/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/java-training/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/FactorialRecurvisvely.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/FactorialRecurvisvely.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting_algorythms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting_algorythms/BubbleSort.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/sorting_algorythms/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/sorting_algorythms/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Java_Exercises/W4D2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Java_Exercises/W4D2/Main.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -42,8 +25,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
+            <state relative-caret-position="867">
+              <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
             </state>
           </provider>
         </entry>
@@ -57,7 +40,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/LibraryUser.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -91,11 +74,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="782">
-              <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+            <state relative-caret-position="425">
+              <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/NoBookException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
             </state>
           </provider>
         </entry>
@@ -115,7 +107,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/sorting_algorythms/BubbleSort.java" />
         <option value="$PROJECT_DIR$/src/sorting_algorythms/Person.java" />
         <option value="$PROJECT_DIR$/src/sorting_algorythms/Main.java" />
         <option value="$PROJECT_DIR$/src/sorting_algorythms/Dog.java" />
@@ -163,9 +154,10 @@
         <option value="$PROJECT_DIR$/src/junit/Main.java" />
         <option value="$PROJECT_DIR$/src/Java_Exercises/W4D2/A4.java" />
         <option value="$PROJECT_DIR$/src/Java_Exercises/W4D2/Book.java" />
+        <option value="$PROJECT_DIR$/src/Java_Exercises/W4D2/LibraryUser.java" />
+        <option value="$PROJECT_DIR$/src/Java_Exercises/W4D2/NoBookException.java" />
         <option value="$PROJECT_DIR$/src/Java_Exercises/W4D2/Main.java" />
         <option value="$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java" />
-        <option value="$PROJECT_DIR$/src/Java_Exercises/W4D2/LibraryUser.java" />
       </list>
     </option>
   </component>
@@ -433,13 +425,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="459">
-          <caret line="27" column="4" selection-start-line="27" selection-start-column="4" selection-end-line="27" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/at/pcbuilder/app/Storage.java" />
     <entry file="file://$PROJECT_DIR$/src/at/pcbuilder/app/Bank.java" />
     <entry file="file://$PROJECT_DIR$/src/sorting_algorythms/Person.java">
@@ -790,24 +775,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Book.java">
+    <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/NoBookException.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="493">
-          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="30" column="28" selection-start-line="30" selection-start-column="28" selection-end-line="30" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="782">
-          <caret line="48" column="50" selection-start-line="48" selection-start-column="50" selection-end-line="48" selection-end-column="50" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
         </state>
       </provider>
     </entry>
@@ -840,6 +811,27 @@
             <element signature="e#1515#1516#0" expanded="true" />
             <element signature="e#1537#1538#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Book.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="41" column="18" selection-start-line="41" selection-start-column="18" selection-end-line="41" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="867">
+          <caret line="51" column="8" selection-start-line="51" selection-start-column="8" selection-end-line="51" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Java_Exercises/W4D2/Library.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="52" column="26" lean-forward="true" selection-start-line="52" selection-start-column="26" selection-end-line="52" selection-end-column="26" />
         </state>
       </provider>
     </entry>

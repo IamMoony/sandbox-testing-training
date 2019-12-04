@@ -27,29 +27,33 @@ public class Library {
    // Method to loop through book array and print it
 
    public void printBooksInLibrary() {
-
-      for (Book element : books) {
-         System.out.println(element);
+      if(this.books.isEmpty()) {
+         System.out.println("No books to print right now");
+      } else {
+         for (Book element : books) {
+            System.out.println(element);
+         }
       }
+
    }
 
    // Method to remove one book from the library
 
    public void removeBook(Book book) {
-      this.books.remove(book);
+      if (this.books == null) {
+         System.out.println("No books found");
+      } else {
+         this.books.remove(book);
+      }
    }
+      // Method to rent a book from the library
 
-   // Method to rent a book from the library
-
-   public void rentBook(LibraryUser user, Book book) {
+      public void rentBook (LibraryUser user, Book book){
 
          removeBook(book);
          user.addBook(book);
-         for(Book element : user.getBooksRented()){
-            System.out.println(element.getTitle());
-         }
+         System.out.println("Library user: " + user.getSurname() + " rented book: " + book.getTitle() + " with the id: " + book.getId());
       }
-
    }
 
 

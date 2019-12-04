@@ -44,5 +44,22 @@ public class Main {
 
         library1.printBooksInLibrary();
 
+        // Rent the second book
+
+        library1.rentBook(user1, book2);
+
+        // Test if user received it
+
+        System.out.println(user1);
+
+        library1.printBooksInLibrary();
+
+
+
+
+
+
+
+
     }
 }
