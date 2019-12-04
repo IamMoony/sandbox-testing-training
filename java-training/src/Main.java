@@ -1,9 +1,13 @@
 import sorting_algorythms.BubbleSort;
+//import sorting_algorythms.Dog;
+//import sorting_algorythms.Dog;
+import sorting_algorythms.Dog;
 import sorting_algorythms.Person;
 
 import java.util.ArrayList;
 
 public class Main {
+
 
     public static void main(String[] args) {
         ReverseString reverseString = new ReverseString();
@@ -19,13 +23,12 @@ public class Main {
         FindMaximum findMaximum = new FindMaximum();
         System.out.println(findMaximum.findMaximum(values));
 
-        FactorialRecurvisvely factorialRecurvisvely = new FactorialRecurvisvely();
-        System.out.println(factorialRecurvisvely.factorialRecurively(5));
 
-        Person person1 = new Person("Gregor", "Warmhud", "1990");
-        Person person2 = new Person("Simon", "Garfunkel", "1995");
-        Person person3 = new Person("John", "Doe", "1988");
-        Person person4 = new Person("Steve", "Wonder", "1977");
+
+        Person person1 = new Person();
+        Person person2 = new Person();
+        Person person3 = new Person();
+        Person person4 = new Person();
 
         ArrayList<Person> persons = new ArrayList<>();
         persons.add(person1);
@@ -34,19 +37,36 @@ public class Main {
         persons.add(person4);
 
         // Bubble Sort
+        //Integer
         BubbleSort bubbleSort = new BubbleSort();
         int[] arrayOfNumbers = {9, 5, 6 ,2 , 8, 1, 4, 13, 19};
-        int[] sorted = bubbleSort.bubbleSort(arrayOfNumbers);
+        int[] sortedInteger = bubbleSort.bubbleSort(arrayOfNumbers);
 
-        for(int i = 0; i < sorted.length; i++) {
-            System.out.println(sorted[i] + " ");
+
+        //String
+        String[] arrayOfNames = {"Mark", "Bubbles", "Anna,", "Dwork"};
+        bubbleSort.bubbleSortString(arrayOfNames);
+
+        //Person Objects
+
+        for(int i = 0; i < sortedInteger.length; i++) {
+            System.out.println(sortedInteger[i] + " ");
         }
 
 
         Palindrome palindrome = new Palindrome();
         palindrome.isPalindrome("otto");
 
+        Person testperson = new Person();
 
+        testperson.setName("John");
+
+
+       Dog dog = new Dog();
+
+       dog.setName("Doggo");
+
+        System.out.println("Name of the dog: " + dog.name);
 
 
 

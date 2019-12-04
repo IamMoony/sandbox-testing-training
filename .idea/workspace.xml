@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="27169eaf-971a-43b3-9f83-6c8406a4f8da" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/TestJava/src/package1/B.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/TestJava/src/package2/C.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/ForLoopTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/LocalDate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/PalindromeForLoop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/Super.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/TestLong.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/W1D3_A4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/BarnabasDoebroessy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/Haris_Kravarevic/Start_again.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/barbara_anissin/CodeReview01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/jessica_triltsch/CodeReview08.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/johannes_Wahl/BonusPoints.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/johannes_Wahl/BonusPoints2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/johannes_Wahl/Calculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/markus_kaspar/CodeReview01_Dynamic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/markus_kaspar/Java_CodeReview01.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/mert_temel/Codereview_criteria_one_two_three_fou.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/mert_temel/Coderevone.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/mert_temel/Coderevthree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/muhammed_farman/main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/sebastian_malcher/areaCalculator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/cr01_waff/sebastien_pflanz/RectangleCalc.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/project_euler/Problem1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/java-training/src/sorting_algorythms/Dog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-training/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/java-training/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-training/out/production/java-training/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/java-training/out/production/java-training/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-training/src/FactorialRecurvisvely.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-training/src/FactorialRecurvisvely.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-training/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-training/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-training/src/sorting_algorythms/BubbleSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-training/src/sorting_algorythms/BubbleSort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/java-training/src/sorting_algorythms/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/java-training/src/sorting_algorythms/Person.java" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1612" />
+    <option name="height" value="928" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="java-training" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Sandbox" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Sandbox" type="462c0819:PsiDirectoryNode" />
+              <item name="java-training" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/java-training" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="27169eaf-971a-43b3-9f83-6c8406a4f8da" name="Default Changelist" comment="" />
+      <created>1575401661752</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1575401661752</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1612" height="928" extended-state="0" />
+    <layout>
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="UI Designer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Maven" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>11</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

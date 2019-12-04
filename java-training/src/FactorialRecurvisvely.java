@@ -1,12 +1,20 @@
-public class FactorialRecurvisvely {
+    public class FactorialRecurvisvely {
 
-    public int factorialRecurively(int number) {
-        int factorial = number;
 
-        for(int i = 1; i < number; i++) {
-            factorial = factorial * i;
+    public int factorialRecursively(int value) {
+
+    // return value == 1 ? 1 : factorialRecursively(value-1) * value;
+        if(value == 1) {
+            return 1;
         }
 
-        return factorial;
+        int x = factorialRecursively(value-1);
+        return x * value;
     }
-}
+
+     public static void main(String[] args) {
+        // new FactorialRecurvisvely().factorialRecursively(5);
+         System.out.println("The Factorial of: " + new FactorialRecurvisvely().factorialRecursively(5));
+
+        }
+    }

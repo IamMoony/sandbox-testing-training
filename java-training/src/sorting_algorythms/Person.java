@@ -2,15 +2,11 @@ package sorting_algorythms;
 
 public class Person {
 
-    String name;
-    String surname;
-    String birthYear;
+    private static String name;
+    private String surname;
+    private String birthYear;
 
-    public Person(String name,  String surname, String birthYear) {
-        this.name = name;
-        this.surname = surname;
-        this.birthYear = birthYear;
-    }
+
 
     public String getName() {
         return name;
@@ -38,10 +34,8 @@ public class Person {
 
     @Override
     public String toString() {
-        return "Person{" +
-                "name='" + name + '\'' +
-                ", surname='" + surname + '\'' +
-                ", birthYear='" + birthYear + '\'' +
-                '}';
+        return name;
+
+
     }
 }
